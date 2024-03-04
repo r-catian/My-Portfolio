@@ -1,0 +1,255 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color:  #121212 ;
+ color: white;
+ list-style: none;
+  
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  
+}
+
+
+  
+  .container {
+    font-size: 30px;
+   text-align: center;
+   border-color: whitesmoke;
+   text-decoration-line: underline;
+   font-family: georgia, serif;
+   
+  }
+  
+  .ms {
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  .ski {
+    font-size: 30px;
+    margin: 5px;
+  }
+  
+  
+  .skill {
+    width: 500px;
+    margin: 60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 25), 0, 10px, 10px rgba(0, 0, 0, 22);
+  }
+  
+  .skill li {
+    margin: 20px 0;
+    padding: 10px;
+  }
+  
+  .bar {
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 12), 0, 1px, 2px rgba(0, 0, 0, 24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+  
+  .bar:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 25), 0, 10px, 10px rgba(0, 0, 0, 22);
+  }
+  
+  .bar span {
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+  }
+  
+  .software {
+    width: 70%;
+    animation: software 3s;
+  }
+  
+    .hardware {
+      width: 90%;
+      animation: hardware 3s;
+    }
+    
+      .program {
+        width: 50%;
+        animation: program 3s;
+      }
+      
+      @keyframes .software {
+        0% {
+          width: 0%;
+        }
+        100% {
+          width: 70%;
+        }
+      }
+      
+           @keyframes .hardware {
+             0% {
+               width: 0%;
+             }
+     
+             100% {
+               width: 90%;
+             }
+           }
+  
+        @keyframes .program {
+          0% {
+            width: 0%;
+          }
+  
+          100% {
+            width: 50%;
+          }
+        }
+  
+  h1 {
+    font-size: 80px;
+    text-align: center;
+    
+  }
+  
+.imgDiv {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    
+  }
+  
+  p.about {
+   text-align: center;
+   font-size: 100px;
+   text-decoration-line: underline;
+  }
+
+  h1.info {
+    text-align: left;
+    font: 30px Arial, sans-serif;
+  
+    
+  }
+  
+  p.a {
+    text-align: center;
+    font-size: 100px;
+    text-decoration-line: underline;
+  }
+  
+   h1.b {
+     text-align: left;
+     margin: 10px;
+     font: 30px arial, sans-serif;
+  
+   }
+   
+   h1.intro {
+     text-align: left;
+     font-size: 100px;
+   }
+   
+   p.c {
+     font: 30px arial, sans-serif;
+      margin: 0px;
+
+   }
+   
+   }
+   
+  p.cred {
+    margin: 1;
+    font-size: 30px;
+    text-align: left;
+  
+  }
+   
+   p.c1 {
+     font-size: 50px;
+     text-decoration-line: underline;
+   }
+   
+   p.t {
+     font-size: 50px;
+     text-decoration-line: underline;
+   }
+   
+   p.furu {
+     margin: 1;
+     font-size: 30px;
+     text-align: left;
+   }
+   
+   p.f {
+     margin: 1;
+     font-size: 30px;
+     text-align: left;
+     
+   }
+   
+   .works {
+     text-decoration-line: underline;
+   }
+   
+   
+   
+   h1.vms {
+     font-size: 30px;
+   }
+   .center {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+   }
+   
+   h1.aha {
+     font-size: 30px;
+     
+   }
+   
+   h1.ip {
+     font-size: 30px;
+     
+   }
+   
+   p.fa-brands fa-facebook {
+     font-size: 70px;
+   }
+   
+   
